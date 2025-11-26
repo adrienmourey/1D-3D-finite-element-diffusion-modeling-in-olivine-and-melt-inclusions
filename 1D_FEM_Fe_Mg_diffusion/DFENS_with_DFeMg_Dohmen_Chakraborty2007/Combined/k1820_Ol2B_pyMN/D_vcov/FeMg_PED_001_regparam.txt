@@ -1,0 +1,23 @@
+
+Call:
+lm(formula = lnDFeMg ~ lnfO2 + XFo + T_i * P_Pa, data = PED_001)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.38165 -0.22880 -0.05866  0.16965  0.63682 
+
+Coefficients: (2 not defined because of singularities)
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  9.500e-02  5.502e+00   0.017  0.98678    
+lnfO2        1.641e-03  8.453e-02   0.019  0.98514    
+XFo         -2.437e+01  4.357e+00  -5.593  0.00139 ** 
+T_i         -2.541e+04  2.067e+03 -12.293 1.77e-05 ***
+P_Pa                NA         NA      NA       NA    
+T_i:P_Pa            NA         NA      NA       NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3759 on 6 degrees of freedom
+Multiple R-squared:  0.9741,	Adjusted R-squared:  0.9611 
+F-statistic: 75.09 on 3 and 6 DF,  p-value: 3.783e-05
+
