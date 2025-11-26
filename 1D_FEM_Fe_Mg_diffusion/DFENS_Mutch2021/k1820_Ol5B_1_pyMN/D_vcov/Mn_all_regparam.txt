@@ -1,0 +1,24 @@
+
+Call:
+lm(formula = lnDMn ~ lnfO2 + XFo + T_i * P_Pa, data = Data_001)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.28111 -0.39416  0.00408  0.28754  1.64778 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -7.548e+00  1.800e+00  -4.194 0.000143 ***
+lnfO2        1.963e-01  5.898e-02   3.329 0.001851 ** 
+XFo         -7.153e+00  5.683e-01 -12.586 1.14e-15 ***
+T_i         -2.672e+04  2.964e+03  -9.015 2.81e-11 ***
+P_Pa        -9.504e-10  5.323e-10  -1.785 0.081588 .  
+T_i:P_Pa     7.195e-07  8.871e-07   0.811 0.422014    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.6368 on 41 degrees of freedom
+  (95 observations deleted due to missingness)
+Multiple R-squared:  0.8748,	Adjusted R-squared:  0.8595 
+F-statistic: 57.28 on 5 and 41 DF,  p-value: < 2.2e-16
+
