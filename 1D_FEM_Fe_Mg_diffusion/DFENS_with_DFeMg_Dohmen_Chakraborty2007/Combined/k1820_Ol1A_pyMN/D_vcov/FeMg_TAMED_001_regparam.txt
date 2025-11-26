@@ -1,0 +1,24 @@
+
+Call:
+lm(formula = lnDFeMg ~ lnfO2 + XFo + T_i * P_Pa, data = TAMED_001)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1.1905 -0.4073  0.0755  0.3269  1.9670 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -6.755e+00  8.485e-01  -7.961 2.91e-12 ***
+lnfO2        2.244e-01  2.872e-02   7.816 5.94e-12 ***
+XFo         -7.181e+00  3.654e-01 -19.652  < 2e-16 ***
+T_i         -2.674e+04  9.055e+02 -29.529  < 2e-16 ***
+P_Pa        -5.213e-10  4.559e-10  -1.143    0.256    
+T_i:P_Pa    -1.028e-07  7.633e-07  -0.135    0.893    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.5562 on 99 degrees of freedom
+  (47 observations deleted due to missingness)
+Multiple R-squared:  0.9469,	Adjusted R-squared:  0.9442 
+F-statistic: 352.8 on 5 and 99 DF,  p-value: < 2.2e-16
+

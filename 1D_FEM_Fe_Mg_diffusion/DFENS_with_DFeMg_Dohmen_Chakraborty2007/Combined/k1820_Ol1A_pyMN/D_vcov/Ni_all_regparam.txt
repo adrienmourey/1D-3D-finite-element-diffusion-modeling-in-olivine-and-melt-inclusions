@@ -1,0 +1,24 @@
+
+Call:
+lm(formula = lnDNi ~ lnfO2 + XFo + T_i * P_Pa, data = Data_001)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1.0491 -0.6266 -0.1498  0.7536  1.4353 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.091e+01  1.842e+00  -5.926 2.38e-07 ***
+lnfO2        3.352e-01  6.141e-02   5.459 1.29e-06 ***
+XFo         -5.044e+00  5.905e-01  -8.542 1.54e-11 ***
+T_i         -1.924e+04  3.393e+03  -5.669 6.05e-07 ***
+P_Pa        -1.122e-09  6.393e-10  -1.755    0.085 .  
+T_i:P_Pa     6.910e-07  1.071e-06   0.645    0.522    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.7704 on 53 degrees of freedom
+  (103 observations deleted due to missingness)
+Multiple R-squared:  0.8154,	Adjusted R-squared:  0.798 
+F-statistic: 46.82 on 5 and 53 DF,  p-value: < 2.2e-16
+
