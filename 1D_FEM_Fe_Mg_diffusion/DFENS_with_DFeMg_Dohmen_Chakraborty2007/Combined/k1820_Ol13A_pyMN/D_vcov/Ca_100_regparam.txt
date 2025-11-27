@@ -1,0 +1,21 @@
+
+Call:
+lm(formula = lnDCa ~ lnfO2 + T_i, data = Data_100)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-0.7913 -0.2770 -0.1263  0.2406  1.3919 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.877e+01  1.496e+00 -12.550 2.45e-10 ***
+lnfO2        2.903e-01  4.366e-02   6.649 3.07e-06 ***
+T_i         -2.497e+04  2.752e+03  -9.074 3.90e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.6007 on 18 degrees of freedom
+  (27 observations deleted due to missingness)
+Multiple R-squared:  0.9661,	Adjusted R-squared:  0.9623 
+F-statistic: 256.6 on 2 and 18 DF,  p-value: 5.892e-14
+
