@@ -1,0 +1,22 @@
+
+Call:
+lm(formula = lnDMn ~ lnfO2 + lnaSiO2 + T_i, data = Data_si_001)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.22512 -0.46163 -0.04517  0.28324  1.53790 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -7.463e+00  2.468e+00  -3.024  0.00508 ** 
+lnfO2       -9.655e-02  1.154e-02  -8.364 2.46e-09 ***
+lnaSiO2      7.613e-01  8.811e-02   8.640 1.22e-09 ***
+T_i         -4.431e+04  4.008e+03 -11.056 4.20e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.6951 on 30 degrees of freedom
+  (28 observations deleted due to missingness)
+Multiple R-squared:  0.9011,	Adjusted R-squared:  0.8912 
+F-statistic: 91.11 on 3 and 30 DF,  p-value: 3.614e-15
+
